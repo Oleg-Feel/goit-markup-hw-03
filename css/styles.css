@@ -16,7 +16,6 @@ body {
     letter-spacing: 0.03em;
 
     background: var(--text-color-light);
-    /* background: #F5F4FA; */
     color: var(--primary-text-color);
     font-family: var(--primary-font-family);
 }
@@ -136,7 +135,7 @@ address {
 
 
 /* --------------hero------------ */
-.hero-container {
+.hero {
     background: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -286,6 +285,7 @@ address {
 }
 
 .team-card {
+    background-color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -309,7 +309,7 @@ address {
 }
 
 .address-item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-link {
@@ -331,11 +331,6 @@ address {
 
 /* ----------portfolio---------- */
 
-.portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .portfolio-list-btn {
     display: flex;
     justify-content: center;
@@ -345,7 +340,7 @@ address {
 
 .btn-filter {
     margin-right: 8px;
-
+    padding: 6px 22px;
     font-family: var(--primary-font-family);
     font-weight: 500;
     font-size: 16px;
@@ -402,5 +397,7 @@ address {
 
 .portfolio-card {
     padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
